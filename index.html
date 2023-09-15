@@ -33,9 +33,15 @@
     body::-webkit-scrollbar {
       display: none;
     }
-    .social-svg image {
-      pointer-events: none;
-  }
+    a.social-link:hover .circle circle {
+      fill: #e0e0e0;
+    }
+    a.social-link:hover .circle {
+      filter: drop-shadow(0 0 5px rgba(0,0,0,0.2));
+    }
+    a.social-link:hover .social-svg {
+      fill: #333;
+    }
   </style>
 </head>
 
